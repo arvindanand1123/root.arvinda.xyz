@@ -4,7 +4,7 @@ theme: hugo-theme-yue
 baseURL: https://arvinda.xyz # Change this to your real domain name, e.g. https://my-cool-domain.org/
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
-enableGitInfo: false # Set lastmod from git history, this may increase build time
+enableGitInfo: true # Set lastmod from git history, this may increase build time
 enableEmoji: true # Emoji list: https://gohugo.io/quick-reference/emojis/
 enableRobotsTXT: true
 
@@ -33,7 +33,7 @@ languages:
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    title: Yue # Shown in home page
+    title: Arvind Anand # Shown in home page
     weight: 10
     menus:
       main:
@@ -43,20 +43,20 @@ languages:
         - name: Posts
           pageRef: /posts
           weight: 20
-        - name: Tags
-          pageRef: /tags
-          weight: 30
-        - name: Categories
-          pageRef: /categories
-          weight: 40
+        # - name: Tags
+        #   pageRef: /tags
+        #   weight: 30
+        # - name: Categories
+        #   pageRef: /categories
+        #   weight: 40
         - name: About
           pageRef: /about
           weight: 50
     params:
       dateFormat: Jan 02, 2006 # See https://gohugo.io/functions/time/format/
-      author: Jane Doe # Default author, supports single value or list, used in single page
+      author: Arvind Anand # Default author, supports single value or list, used in single page
       footer:
         copyright:
           yearStart: 2023 # Optional
           yearEnd: 2024 # Optional, default value: current year
-          author: Jane Doe
+          author: Arvind Anand
