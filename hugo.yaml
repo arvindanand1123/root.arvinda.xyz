@@ -40,8 +40,8 @@ languages:
         - name: Home
           pageRef: /
           weight: 10
-        - name: Posts
-          pageRef: /posts
+        - name: Logs 
+          pageRef: /logs
           weight: 20
         # - name: Tags
         #   pageRef: /tags
