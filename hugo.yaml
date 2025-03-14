@@ -35,12 +35,10 @@ languages:
     languageName: English
     title: Arvind Anand # Shown in home page
     weight: 10
-    params:
-      mainSections: ["about"]  # This will make the about section the home page
     menus:
       main:
         - name: About
-          pageRef: /about
+          pageRef: /
           weight: 3
         - name: Logs 
           pageRef: /logs
