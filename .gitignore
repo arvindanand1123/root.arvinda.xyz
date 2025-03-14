@@ -10,3 +10,8 @@ logs/
 
 # Temporary files
 *.tmp
+
+# Hugo things
+/public/
+/resources/
+.hugo_build.lock
