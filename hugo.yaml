@@ -39,10 +39,10 @@ languages:
       main:
         - name: About
           pageRef: /about
-          weight: 1
+          weight: 3
         - name: Logs 
           pageRef: /logs
-          weight: 1
+          weight: 5
     params:
       dateFormat: Jan 02, 2006 # See https://gohugo.io/functions/time/format/
       author: Arvind Anand # Default author, supports single value or list, used in single page
