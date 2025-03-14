@@ -40,8 +40,8 @@ languages:
         - name: About
           pageRef: /
           weight: 3
-        - name: Logs 
-          pageRef: /logs
+        - name: Writings
+          pageRef: /writings
           weight: 5
     params:
       dateFormat: Jan 02, 2006 # See https://gohugo.io/functions/time/format/
