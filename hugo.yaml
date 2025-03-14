@@ -37,26 +37,16 @@ languages:
     weight: 10
     menus:
       main:
-        - name: Home
-          pageRef: /
-          weight: 10
-        - name: Logs 
-          pageRef: /logs
-          weight: 20
-        # - name: Tags
-        #   pageRef: /tags
-        #   weight: 30
-        # - name: Categories
-        #   pageRef: /categories
-        #   weight: 40
         - name: About
           pageRef: /about
-          weight: 50
+          weight: 1
+        - name: Logs 
+          pageRef: /logs
+          weight: 1
     params:
       dateFormat: Jan 02, 2006 # See https://gohugo.io/functions/time/format/
       author: Arvind Anand # Default author, supports single value or list, used in single page
       footer:
         copyright:
           yearStart: 2023 # Optional
-          yearEnd: 2024 # Optional, default value: current year
           author: Arvind Anand
