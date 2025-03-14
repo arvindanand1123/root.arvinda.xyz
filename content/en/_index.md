@@ -4,4 +4,3 @@ draft: false
 title: Home
 ---
 
-Yue is a minimal Hugo theme. Source code: <https://github.com/CyrusYip/hugo-theme-yue>.
